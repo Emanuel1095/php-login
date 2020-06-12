@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+body{
+	background:#e3e3e3;
+	color:#000000;
+}	
+header{
+	background:white;
+	max-height: 100px;
+	height:16%; 
+	width:100%;
+	max-width:100%;
+	display: inline-block;
+	overflow:hidden;
+	position: relative;
+}
+header .logo{
+	border:black 3px solid;
+}
+	header .usuario{
+	float:right;
+	margin-right:20%; 
+	height: 50px;
+	width: auto;
+	position: absolute;
+	top: 20%;
+	left: 96%;
+}
+header .cabecera {
+	font-family:"Arial"; 
+	font-size:auto; 
+	padding:10px 15px;
+	margin:2% 5% 0% -4%;
+	float: right;
+	display: block;
+	height:40%;
+	width: auto; 
+	text-decoration:none;
+	background:#e5e2e5;
+	border-radius:10px;  
+
+}
+header .cabecera:link {
+	color:#000;
+}
+header .cabecera:visited{
+	color:#000;
+}
+header .cabecera:hover{
+	background:#d2ccd1;
+}
+header .cabecera:active{
+	background:#86ccd3; 
+}
+header .ali{		/*Texto del Encabezado*/
+	padding:0px 0px; 
+	margin:0px 0px;
+	color:#3ddae4;
+	text-shadow:1px 1px 1.5px rgba(0,0,0,0.5); 
+	font-size:190%; 
+	font-family:"Arial";
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	position:absolute;
+	bottom:38px;
+	left:320px;
+}
+.main .p1{		/*1ro Bloque Izquierdo*/
+	background:#f2f2f2;
+	width:870px; 
+	height:auto;
+	border:3px solid #c9c9c9;
+	margin:50px 40px 0px 50px;
+	padding:25px 30px;
+	display:inline-block;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	float: left;
+}
+p {
+	font-size:24px;
+	font-family:"Open Sans"; 
+	text-align: justify;
+}	
+.main .p1 .img-text{
+	float:left;
+	border-radius:0%;
+	height:225px; 
+	width:350px;
+	margin-right:20px; 
+}
+.contenedor{
+	width: 100%
+	max-width:303px;
+	margin: auto;
+}
+aside nav{
+	
+	background: #f2f2f2;
+	width:300px; 
+	height:auto;
+	border:3px solid #c9c9c9;
+	padding:15px 20px;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	overflow:hidden;
+}
+	aside nav ul{
+		margin-left: 10px;
+	}
+		aside nav ul li a{
+			text-decoration:none;
+			color: #000;
+		}
+		aside nav ul li a:hover{
+			text-decoration: underline;			
+		}
+.menu-fixed{
+	position:fixed;
+	z-index: 1000;
+	bottom: 25px;
+	left:960px;
+}
